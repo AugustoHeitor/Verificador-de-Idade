@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(48, 153, 223, 0.849);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#idade{
+    padding: 6px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#masculino, #feminino{
+    margin-left: 5px;
+}
+
+#botao{
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#botao:hover{
+    cursor:pointer;
+}
+
+#res{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#imagem{
+    display: block;
+    margin: 0 auto;
+}
+
+#fala{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width:768px){ 
+
+    header > h1{
+        font-size: 30px;
+    }
+
+    section{
+        width: 300px;
+    }
+    #idade{
+        padding: 6px;
+        margin-left: 3px;
+        width: 100px;
+    }
+}
